@@ -1,0 +1,38 @@
+.blue-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    text-align: center;
+}
+
+.chart-container {
+    margin-bottom: 20px;
+}
+
+#issuesList, #improvementsList {
+    margin-top: 20px;
+}
+
+#issuesList ul, #improvementsList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#issuesList ul li, #improvementsList ul li {
+    margin-bottom: 5px;
+}
+
+#issuesList h2, #improvementsList h2 {
+    margin-bottom: 10px;
+}
